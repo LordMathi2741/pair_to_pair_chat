@@ -1,0 +1,14 @@
+:root{
+    --nav-bg-color: #4D55CC;
+    --hover-bg-color: #3A42A0;
+    --nav-text-color: #fff;
+    --border-color: #D7D7D7;
+    --placeholder-color: #A9A9A9;
+    --background-color: #F5F5F5;
+    --xl-breakpoint: 1200px;
+    --lg-breakpoint: 992px;
+    --md-breakpoint: 768px;
+    --sm-breakpoint: 576px;
+    --nav-item-padding: 10px 20px;
+    
+}
