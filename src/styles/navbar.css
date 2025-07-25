@@ -1,0 +1,18 @@
+.nav__container{
+    background-color: var(--nav-bg-color);
+    padding: 50px;
+    border-radius: 0px 0px 60px 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    right: 0;
+}
+
+.nav__items h2{
+    color: var(--nav-text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+

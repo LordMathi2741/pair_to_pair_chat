@@ -1,0 +1,71 @@
+
+
+.message-box__container {
+    position: fixed;
+    width: 100%;
+    top: 90%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border: 2px solid var(--border-color);
+    height: 100%;
+    padding: 20px;
+    
+
+}
+
+.message-box__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-box__button{
+    border-radius: 35px;
+    width: 70px;
+    border: none;
+    background-color: var(--nav-bg-color);
+}
+
+.message-box__button:hover{
+    cursor: pointer;
+    background-color: var(--hover-bg-color);
+}
+
+
+.message-box__button span{
+    color: var(--background-color);
+    font-size: x-large;
+}
+
+.message-box__input {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    font-size:  x-large;
+    width: 100%;
+    border-radius: 25px;
+    color: var(--placeholder-color);
+}
+
+.message-box__input:focus {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.message-box__input::placeholder {
+    color: var(--placeholder-color);
+    font-size: x-large;
+}
+
+
+@media (width <= 768px) {
+    .message-box__input{
+        font-size: large;
+    }
+
+    .message-box__input::placeholder {
+        font-size: large;
+    }
+    
+}
